@@ -1,0 +1,4 @@
+SmartSeo
+========
+
+Smartening a Coffeemachine
