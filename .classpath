@@ -8,10 +8,18 @@
 	</classpathentry>
 	<classpathentry kind="lib" path="libs/pi4j-core-javadoc.jar"/>
 	<classpathentry kind="lib" path="libs/pi4j-core-sources.jar"/>
-	<classpathentry kind="lib" path="libs/pi4j-core.jar"/>
+	<classpathentry kind="lib" path="libs/pi4j-core.jar" sourcepath="libs/pi4j-core-sources.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:platform:/resource/SmartSeo/libs/pi4j-core-javadoc.jar!/"/>
+		</attributes>
+	</classpathentry>
 	<classpathentry kind="lib" path="libs/pi4j-device-javadoc.jar"/>
 	<classpathentry kind="lib" path="libs/pi4j-device-sources.jar"/>
-	<classpathentry kind="lib" path="libs/pi4j-device.jar"/>
+	<classpathentry kind="lib" path="libs/pi4j-device.jar" sourcepath="libs/pi4j-device-sources.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:platform:/resource/SmartSeo/libs/pi4j-device-javadoc.jar!/"/>
+		</attributes>
+	</classpathentry>
 	<classpathentry kind="lib" path="libs/pi4j-example-javadoc.jar"/>
 	<classpathentry kind="lib" path="libs/pi4j-example-sources.jar"/>
 	<classpathentry kind="lib" path="libs/pi4j-example.jar"/>
