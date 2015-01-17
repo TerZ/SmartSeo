@@ -14,7 +14,7 @@ import smartControl.GPIOControl;
 /**
  * Servlet implementation class SmartSeoServlet
  */
-@WebServlet("/SmartSeoServlet")
+@WebServlet("/Input")
 public class SmartSeoServlet extends HttpServlet {
 	private static final long serialVersionUID = 1L;
 	GPIOControl smartSeoControl;
@@ -30,7 +30,7 @@ public class SmartSeoServlet extends HttpServlet {
 	 * @see Servlet#init(ServletConfig)
 	 */
 	public void init(ServletConfig config) throws ServletException {
-		//smartSeoControl = new GPIOControl();
+		smartSeoControl = new GPIOControl();
 	}
 
 	protected void doGet(HttpServletRequest request,
