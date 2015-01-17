@@ -1,4 +1,4 @@
-package test;
+package smartControl;
 
 import java.util.logging.Logger;
 
@@ -17,7 +17,7 @@ public class GPIOControl {
 	private GpioPinDigitalOutput oneCupButton;
 	private GpioPinDigitalOutput twoCupButton;
 
-	private GPIOControl() {
+	GPIOControl() {
 		System.out.println("Constructor");
 		gpio = GpioFactory.getInstance();
 		powerButton = gpio.provisionDigitalOutputPin(RaspiPin.GPIO_07,
