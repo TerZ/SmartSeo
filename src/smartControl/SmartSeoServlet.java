@@ -66,10 +66,19 @@ public class SmartSeoServlet extends HttpServlet {
 			System.out.println("On");
 			smartSeoControl.pushPowerButton();
 			break;
+			
 		case "off":
 			System.out.println("Off");
 			smartSeoControl.pushPowerButton();
 			break;
+			
+		case "oneCupManual":
+			System.out.println("OneCupManual");
+			smartSeoControl.pushOneCupButton();
+			
+		case "twoCupManual":
+			System.out.println("TwoCupManual");
+			smartSeoControl.pushTwoCupButton();
 		}
 
 	}
